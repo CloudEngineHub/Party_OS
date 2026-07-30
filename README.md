@@ -51,6 +51,12 @@ Party OS 串联数据采集与生成、动作重定向、模仿学习与无监�
       <td>无监督学习框架</td>
       <td><a href="https://github.com/Roboparty/UFO">Roboparty/UFO</a></td>
     </tr>
+    <tr>
+      <td><strong>全身操作 Infra</strong></td>
+      <td>JEPA World Model</td>
+      <td>基于动作意图编码的高效 JEPA 框架</td>
+      <td><a href="https://github.com/Roboparty/INTACT-JEPA">Roboparty/INTACT-JEPA</a></td>
+    </tr>
   </tbody>
 </table>
 
