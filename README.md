@@ -2,7 +2,7 @@
 
 **ROBO PARTY | LAB** 面向人形机器人的系统与能力演进路线。
 
-Party OS 串联数据采集与生成、动作重定向、模仿学习与无监督学习，并逐步扩展到人–物交互（HOI）与人–系统交互（HSI），VLA，Agentic Humanoid，形成从底层工具到上层交互能力的完整栈。
+Party OS 从数据生成、动作重定向和无本体数采做起，接上监督学习与无监督学习，再向上展开人–物交互（HOI：低动态的搬运与移动、高动态的球类）和人–系统交互（HSI），最后进入规划、执行、验证，以及评估、调优、部署。
 
 ## Roadmap
 
@@ -12,7 +12,7 @@ Party OS 串联数据采集与生成、动作重定向、模仿学习与无监�
 
 ## 子项目
 
-按 Roadmap 从底层能力到上层交互展开：
+按 Roadmap 从数据采集、学习、交互到规划与部署展开：
 
 <table>
   <thead>
@@ -31,7 +31,7 @@ Party OS 串联数据采集与生成、动作重定向、模仿学习与无监�
       <td><a href="https://roboparty.feishu.cn/wiki/GvUxwKVeNiGa7kku6vEcvqfKn87">《人形机器人运动控制Know-how》</a></td>
     </tr>
     <tr>
-      <td rowspan="4"><strong>底层运控 Infra</strong></td>
+      <td rowspan="3"><strong>数据</strong></td>
       <td>数据生成 (generate)</td>
       <td>数据生成</td>
       <td>即将开源</td>
@@ -42,6 +42,12 @@ Party OS 串联数据采集与生成、动作重定向、模仿学习与无监�
       <td><a href="https://github.com/Roboparty/human-humanoid-tools">Roboparty/human-humanoid-tools</a></td>
     </tr>
     <tr>
+      <td>无本体数采 (ego humanoid)</td>
+      <td>无本体数据采集</td>
+      <td>即将开源</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>学习</strong></td>
       <td>监督学习 (MimicLite)</td>
       <td>运动模仿：加载、跟踪、训练、评估与部署衔接</td>
       <td><a href="https://github.com/Roboparty/MimicLite">Roboparty/MimicLite</a></td>
@@ -52,10 +58,31 @@ Party OS 串联数据采集与生成、动作重定向、模仿学习与无监�
       <td><a href="https://github.com/Roboparty/UFO">Roboparty/UFO</a></td>
     </tr>
     <tr>
-      <td><strong>全身操作 Infra</strong></td>
-      <td>JEPA World Model</td>
-      <td>基于动作意图编码的高效 JEPA 框架</td>
-      <td><a href="https://github.com/Roboparty/INTACT-JEPA">Roboparty/INTACT-JEPA</a></td>
+      <td rowspan="3"><strong>交互</strong></td>
+      <td>低动态交互 (HOI)</td>
+      <td>搬运、移动</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>高动态交互 (HOI)</td>
+      <td>球类</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>HSI</td>
+      <td>人–系统交互</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>规划到部署</strong></td>
+      <td>规划、执行、验证</td>
+      <td>规划、执行与验证</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>评估、调优、部署</td>
+      <td>评估、调优与部署</td>
+      <td>—</td>
     </tr>
   </tbody>
 </table>
