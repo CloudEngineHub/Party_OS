@@ -57,6 +57,12 @@ Party OS 串联数据采集与生成、动作重定向、模仿学习与无监�
       <td>基于动作意图编码的高效 JEPA 框架</td>
       <td><a href="https://github.com/Roboparty/INTACT-JEPA">Roboparty/INTACT-JEPA</a></td>
     </tr>
+    <tr>
+      <td><strong>交互感知 Infra</strong></td>
+      <td>交互基础模型 (I-BFM)</td>
+      <td>基于 FB 表征与 LOGO 的人形机器人交互控制，支持搬箱、推箱和踢箱</td>
+      <td><a href="https://github.com/Roboparty/I-BFM-Code">Roboparty/I-BFM-Code</a></td>
+    </tr>
   </tbody>
 </table>
 
