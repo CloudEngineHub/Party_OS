@@ -7,7 +7,7 @@ Party OS 串联数据采集与生成、动作重定向、模仿学习与无监�
 ## Roadmap
 
 <p align="center">
-  <img src="assets/party-os-roadmap-v2.png" alt="Party OS Roadmap" width="100%">
+  <img src="assets/party-os-roadmap-v3.png" alt="Party OS Roadmap" width="100%">
 </p>
 
 ## 子项目
